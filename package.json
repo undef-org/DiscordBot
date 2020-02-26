@@ -1,0 +1,29 @@
+{
+    "name": "lancelot",
+    "version": "0.0.1",
+    "description": "KnightHacks' Discord Bot",
+    "main": "bot.js",
+    "author": "lienne",
+    "scripts": {
+        "test": "nodemon bot.js",
+        "setup": "node config.js",
+        "start": "node bot.js"
+    },
+    "dependencies": {
+        "axios": "^0.19.0",
+        "cheerio": "^1.0.0-rc.3",
+        "discord.js": "^11.5.1",
+        "prefix": "^1.0.0",
+        "selenium-webdriver": "^4.0.0-alpha.5",
+        "node-fetch":"^2.6.0"
+    },
+    "devDependencies": {
+        "eslint": "^6.3.0",
+        "eslint-config-standard": "^14.1.0",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-node": "^10.0.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^4.0.1",
+        "nodemon": "^1.19.2"
+    }
+}
