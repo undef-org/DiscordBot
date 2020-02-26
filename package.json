@@ -1,21 +1,21 @@
 {
-    "name": "lancelot",
+    "name": "moot-bott",
     "version": "0.0.1",
-    "description": "KnightHacks' Discord Bot",
+    "description": "Discord Bot",
     "main": "bot.js",
-    "author": "lienne",
+    "author": "nayoshi",
     "scripts": {
         "test": "nodemon bot.js",
-        "setup": "node config.js",
+        "postinstall": "node config.js",
         "start": "node bot.js"
     },
     "dependencies": {
         "axios": "^0.19.0",
         "cheerio": "^1.0.0-rc.3",
         "discord.js": "^11.5.1",
+        "node-fetch": "^2.6.0",
         "prefix": "^1.0.0",
-        "selenium-webdriver": "^4.0.0-alpha.5",
-        "node-fetch":"^2.6.0"
+        "selenium-webdriver": "^4.0.0-alpha.5"
     },
     "devDependencies": {
         "eslint": "^6.3.0",

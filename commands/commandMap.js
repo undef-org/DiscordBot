@@ -12,6 +12,7 @@ const garage = require('./garage')
 const coinflip = require('./coinflip')
 const diceroll = require('./diceRoll')
 const fact = require('./fact')
+const josh = require('./josh')
 
 module.exports = {
   ping: ping,
@@ -27,5 +28,6 @@ module.exports = {
   garage: garage,
   coinflip: coinflip,
   diceroll: diceroll,
-  fact: fact
+  fact: fact,
+  josh: josh
 }

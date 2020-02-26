@@ -12,6 +12,7 @@ module.exports = async function (event, client) {
       if (user.bot) return
       if (!message.channel.guild) return
       if (message.id !== roleMessageId) return
+      console.log(data.emoji.name)
       if (roleReactionMap[data.emoji.name] == null) return
 
       const role = message.guild.roles.find(r => r.name === roleReactionMap[data.emoji.name])
